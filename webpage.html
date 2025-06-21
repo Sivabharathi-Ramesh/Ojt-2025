@@ -26,18 +26,48 @@
         #b:hover{
             color:rgb(115, 230, 48)
         }
+        #a:active{
+            color:rgb(217, 129, 177)
+        }
+        #b:active{
+            color:rgb(234, 138, 231)
+        }
+         #a:visited{
+            color:rgb(247, 249, 218)
+        }
+        #b:visited{
+            color:rgb(234, 228, 138)
+        }
         #c,#d{
             color:rgb(168, 213, 249)
         }
         #a1{
             text-align: justify;font-size: 19px;
-
         }
+        .collage {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+        .collage img {
+            width: 100px;           
+            height: 100px;          
+            object-fit: cover;     
+            border-radius: 8px;
+            transition: transform 0.3s;
+            }
+
+        .collage img:hover {
+            transform: scale(1.1); 
+            }
 
 
     </style>
     <body >
-        <!--<img src="nametext.png" alt="Siva Bharathi" style="width:1000;height:400">-->
+       
         <h1 >Hello, I am Sivabharathi Ramesh✨</h1>
         
         <b>
@@ -69,12 +99,27 @@
         </section>
         <section> 
             <h2 >Inspiration</h2>
+            <p>
+                I greatly inspired to Dr.Tanu Jain Ma'am and her communication skills.My parents are my great supporters and they motivate me lot.
+            </p>
+            
         </section>
         <section> 
-            <h2 >Current Involvement</h2>
+            <h2 >Languages known</h2>
+            <ol>
+                <li>Tamil</li>
+                <li>English</li>
+            </ol>
         </section>
          <section> 
             <h2 >My Album</h2>
+            <div class="collage">
+                <img src="siva1.jpg" alt="Photo 1">
+                <img src="siva2.jpg" alt="Photo 2">
+                <img src="siva3.JPG" alt="Photo 3">
+                <img src="images/pic4.jpg" alt="Photo 4">
+                <img src="images/pic5.jpg" alt="Photo 5">
+            </div>
             
            
 
